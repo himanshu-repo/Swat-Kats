@@ -1,0 +1,30 @@
+Name: Himanshu Chaturvedi	
+Email: hchatur@g.clemson.edu
+Date: 12.11.2013
+
+Proj No: 	Final Project
+
+
+Game Concept - 
+
+The player has to avoid colliding with the enemy Jets by either moving or shooting them. After a given while player has to re-fuel the Jet so that it can continue moving. The game ends after lives have been exhausted or the player has travelled a certain distance.
+
+The Specs that I implemented are:
+
+1) AI - The enemies speed up towards the player once they come close enough.
+
+2) Menu 
+
+
+The Specs that I was unable to implement are:
+
+None as per requirement.
+
+
+Extra:
+
+Difficulty levels - User can choose between Easy, Medium and Hard.
+
+
+
+

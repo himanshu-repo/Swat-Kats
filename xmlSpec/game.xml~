@@ -1,0 +1,142 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>960</viewHeight>
+</view>
+
+<world>
+  <worldWidth>1280</worldWidth>
+  <worldHeight>960</worldHeight>
+</world>
+
+<screenTitle>Megakat City!</screenTitle>
+
+<back>
+  <backFile>images/sky.png</backFile>
+  <backFactor>1</backFactor>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backWidth>1280</backWidth>
+  <backHeight>960</backHeight>
+  <backTransparency>false</backTransparency>
+</back>
+
+
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>34</fontRed>
+  <fontGreen>160</fontGreen>
+  <fontBlue>34</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<JetLeft>
+  <JetLeftFile>images/JetLeft.png</JetLeftFile>
+  <JetLeftLoc JetLeftX="320" JetLeftY="240"/>
+
+  <JetLeftFrames>1</JetLeftFrames>
+  <JetLeftFrameInterval>20</JetLeftFrameInterval>
+  <JetLeftChunks>25</JetLeftChunks>
+
+  <JetLeftSrcX>0</JetLeftSrcX>
+  <JetLeftSrcY>0</JetLeftSrcY>
+  <JetLeftWidth>200</JetLeftWidth>
+  <JetLeftHeight>60</JetLeftHeight>
+  <JetLeftSpeedX>100</JetLeftSpeedX>
+  <JetLeftSpeedY>0</JetLeftSpeedY>
+  <JetLeftTransparency>true</JetLeftTransparency>
+</JetLeft>
+
+<JetRight>
+  <JetRightFile>images/JetRight.png</JetRightFile>
+  <JetRightLoc JetRightX="320" JetRightY="240"/>
+
+  <JetRightFrames>1</JetRightFrames>
+  <JetRightFrameInterval>20</JetRightFrameInterval>
+  <JetRightChunks>25</JetRightChunks>
+
+  <JetRightSrcX>0</JetRightSrcX>
+  <JetRightSrcY>0</JetRightSrcY>
+  <JetRightWidth>200</JetRightWidth>
+  <JetRightHeight>60</JetRightHeight>
+  <JetRightSpeedX>200</JetRightSpeedX>
+  <JetRightSpeedY>0</JetRightSpeedY>
+  <JetRightTransparency>true</JetRightTransparency>
+</JetRight>
+
+<tanksRight>
+  <tanksRightFile>images/tanksRight.png</tanksRightFile>
+  <tanksRightLoc tanksRightX="0" tanksRightY="846"/>
+
+  <tanksRightFrames>2</tanksRightFrames>
+  <tanksRightFrameInterval>100</tanksRightFrameInterval>
+  <tanksRightChunks>25</tanksRightChunks>
+
+  <tanksRightSrcX>0</tanksRightSrcX>
+  <tanksRightSrcY>0</tanksRightSrcY>
+  <tanksRightWidth>250</tanksRightWidth>
+  <tanksRightHeight>105</tanksRightHeight>
+  <tanksRightSpeedX>100</tanksRightSpeedX>
+  <tanksRightSpeedY>0</tanksRightSpeedY>
+  <tanksRightTransparency>true</tanksRightTransparency>
+</tanksRight>
+
+<tanksLeft>
+  <tanksLeftFile>images/tanksLeft.png</tanksLeftFile>
+  <tanksLeftLoc tanksLeftX="0" tanksLeftY="846"/>
+
+  <tanksLeftFrames>2</tanksLeftFrames>
+  <tanksLeftFrameInterval>100</tanksLeftFrameInterval>
+  <tanksLeftChunks>25</tanksLeftChunks>
+
+  <tanksLeftSrcX>0</tanksLeftSrcX>
+  <tanksLeftSrcY>0</tanksLeftSrcY>
+  <tanksLeftWidth>250</tanksLeftWidth>
+  <tanksLeftHeight>105</tanksLeftHeight>
+  <tanksLeftSpeedX>100</tanksLeftSpeedX>
+  <tanksLeftSpeedY>0</tanksLeftSpeedY>
+  <tanksLeftTransparency>true</tanksLeftTransparency>
+</tanksLeft>
+
+
+<bulletRight>
+  <bulletRightFile>images/bulletRight.png</bulletRightFile>
+  <bulletRightSrcX>0</bulletRightSrcX>
+  <bulletRightSrcY>0</bulletRightSrcY>
+  <bulletRightWidth>30</bulletRightWidth>
+  <bulletRightHeight>9</bulletRightHeight>
+  <bulletRightLoc bulletRightX="820" bulletRightY="680"/>
+  <bulletRightSpeed bulletRightSpeedX="200" bulletRightSpeedY="150"/>
+  <bulletRightTransparency>true</bulletRightTransparency>
+</bulletRight>
+
+
+<bulletLeft>
+  <bulletLeftFile>images/bulletLeft.png</bulletLeftFile>
+  <bulletLeftSrcX>0</bulletLeftSrcX>
+  <bulletLeftSrcY>0</bulletLeftSrcY>
+  <bulletLeftWidth>30</bulletLeftWidth>
+  <bulletLeftHeight>9</bulletLeftHeight>
+  <bulletLeftLoc bulletLeftX="820" bulletLeftY="680"/>
+  <bulletLeftSpeed bulletLeftSpeedX="200" bulletLeftSpeedY="150"/>
+  <bulletLeftTransparency>true</bulletLeftTransparency>
+</bulletLeft>
+
+<logo>
+  <logoFile>images/logonew.png</logoFile>
+  <logoSrcX>0</logoSrcX>
+  <logoSrcY>0</logoSrcY>
+  <logoWidth>640</logoWidth>
+  <logoHeight>960</logoHeight>
+  <logoLoc logoX="0" logoY="0"/>
+  <logoSpeed logoSpeedX="0" logoSpeedY="0"/>
+  <logoTransparency>true</logoTransparency>
+</logo>
+
+
+</GameData>

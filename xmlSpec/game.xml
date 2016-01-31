@@ -1,0 +1,314 @@
+<?xml version = "1.0"?>
+<GameData>
+<PlayerCollisionStrategy>perpixel</PlayerCollisionStrategy>
+
+<NoKillInterval>1500</NoKillInterval>
+
+<view>
+  <viewWidth>1800</viewWidth>
+  <viewHeight>960</viewHeight>
+</view>
+
+<world>
+  <worldWidth>128000</worldWidth>
+  <worldHeight>960</worldHeight>
+</world>
+
+<screenTitle>Megakat City</screenTitle>
+
+<back>
+  <backFile>images/newsky.png</backFile>
+  <backFactor>4</backFactor>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backWidth>2560</backWidth>
+  <backHeight>960</backHeight>
+  <backTransparency>false</backTransparency>
+</back>
+
+<back1>
+  <back1File>images/buildings.png</back1File>
+  <back1Factor>1</back1Factor>
+  <back1SrcX>0</back1SrcX>
+  <back1SrcY>0</back1SrcY>
+  <back1Width>1280</back1Width>
+  <back1Height>960</back1Height>
+  <back1Transparency>true</back1Transparency>
+</back1>
+
+
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>18</fontSize>
+  <fontRed>34</fontRed>
+  <fontGreen>160</fontGreen>
+  <fontBlue>34</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<JetLeft>
+  <JetLeftFile>images/JetLeft.png</JetLeftFile>
+  <JetLeftLoc JetLeftX="320" JetLeftY="240"/>
+
+  <JetLeftFrames>1</JetLeftFrames>
+  <JetLeftFrameInterval>20</JetLeftFrameInterval>
+  <JetLeftChunks>25</JetLeftChunks>
+
+  <JetLeftSrcX>0</JetLeftSrcX>
+  <JetLeftSrcY>0</JetLeftSrcY>
+  <JetLeftWidth>200</JetLeftWidth>
+  <JetLeftHeight>60</JetLeftHeight>
+  <JetLeftSpeedX>0</JetLeftSpeedX>
+  <JetLeftSpeedY>0</JetLeftSpeedY>
+  <JetLeftTransparency>true</JetLeftTransparency>
+</JetLeft>
+
+<JetRight>
+  <JetRightFile>images/JetRight.png</JetRightFile>
+  <JetRightLoc JetRightX="320" JetRightY="240"/>
+
+  <JetRightFrames>1</JetRightFrames>
+  <JetRightFrameInterval>20</JetRightFrameInterval>
+  <JetRightChunks>25</JetRightChunks>
+
+  <JetRightSrcX>0</JetRightSrcX>
+  <JetRightSrcY>0</JetRightSrcY>
+  <JetRightWidth>200</JetRightWidth>
+  <JetRightHeight>60</JetRightHeight>
+  <JetRightSpeedX>1200</JetRightSpeedX>
+  <JetRightSpeedY>0</JetRightSpeedY>
+  <JetRightTransparency>true</JetRightTransparency>
+</JetRight>
+
+<tanksRight>
+  <tanksRightFile>images/tanksRight.png</tanksRightFile>
+  <tanksRightLoc tanksRightX="0" tanksRightY="855"/>
+
+  <tanksRightFrames>2</tanksRightFrames>
+  <tanksRightFrameInterval>100</tanksRightFrameInterval>
+  <tanksRightChunks>25</tanksRightChunks>
+
+  <tanksRightSrcX>0</tanksRightSrcX>
+  <tanksRightSrcY>0</tanksRightSrcY>
+  <tanksRightWidth>250</tanksRightWidth>
+  <tanksRightHeight>105</tanksRightHeight>
+  <tanksRightSpeedX>100</tanksRightSpeedX>
+  <tanksRightSpeedY>0</tanksRightSpeedY>
+  <tanksRightTransparency>false</tanksRightTransparency>
+</tanksRight>
+
+<tanksLeft>
+  <tanksLeftFile>images/tanksLeft.png</tanksLeftFile>
+  <tanksLeftLoc tanksLeftX="0" tanksLeftY="855"/>
+
+  <tanksLeftFrames>2</tanksLeftFrames>
+  <tanksLeftFrameInterval>100</tanksLeftFrameInterval>
+  <tanksLeftChunks>25</tanksLeftChunks>
+
+  <tanksLeftSrcX>0</tanksLeftSrcX>
+  <tanksLeftSrcY>0</tanksLeftSrcY>
+  <tanksLeftWidth>250</tanksLeftWidth>
+  <tanksLeftHeight>105</tanksLeftHeight>
+  <tanksLeftSpeedX>100</tanksLeftSpeedX>
+  <tanksLeftSpeedY>0</tanksLeftSpeedY>
+  <tanksLeftTransparency>false</tanksLeftTransparency>
+</tanksLeft>
+
+<blast>
+  <blastFile>images/blastsfinal.png</blastFile>
+  <blastLoc blastX="0" blastY="855"/>
+
+  <blastFrames>7</blastFrames>
+  <blastFrameInterval>100</blastFrameInterval>
+  
+  <blastSrcX>0</blastSrcX>
+  <blastSrcY>0</blastSrcY>
+  <blastWidth>120</blastWidth>
+  <blastHeight>120</blastHeight>
+  <blastSpeedX>0</blastSpeedX>
+  <blastSpeedY>0</blastSpeedY>
+  <blastTransparency>false</blastTransparency>
+</blast>
+
+<Radius>900</Radius>
+<enemy>
+  <enemyFile>images/enemy.png</enemyFile>
+  <enemySrcX>0</enemySrcX>
+  <enemySrcY>0</enemySrcY>
+  <enemyWidth>149</enemyWidth>
+  <enemyHeight>45</enemyHeight>
+  <enemyLoc enemyX="820" enemyY="680"/>
+  <enemySpeed enemySpeedX="-200" enemySpeedY="0" enemyAttackSpeedX="250" enemyAttackSpeedY="250" />
+  <enemyTransparency>true</enemyTransparency>
+</enemy>
+
+
+<bigrain>
+  <bigrainFile>images/bigrain.png</bigrainFile>
+  <bigrainSrcX>0</bigrainSrcX>
+  <bigrainSrcY>0</bigrainSrcY>
+  <bigrainWidth>30</bigrainWidth>
+  <bigrainHeight>9</bigrainHeight>
+  <bigrainLoc bigrainX="820" bigrainY="680"/>
+  <bigrainSpeed bigrainSpeedX="-150" bigrainSpeedY="150"/>
+  <bigrainTransparency>true</bigrainTransparency>
+</bigrain>
+
+<smallrain>
+  <smallrainFile>images/smallrain.png</smallrainFile>
+  <smallrainSrcX>0</smallrainSrcX>
+  <smallrainSrcY>0</smallrainSrcY>
+  <smallrainWidth>30</smallrainWidth>
+  <smallrainHeight>9</smallrainHeight>
+  <smallrainLoc smallrainX="820" smallrainY="680"/>
+  <smallrainSpeed smallrainSpeedX="-50" smallrainSpeedY="50"/>
+  <smallrainTransparency>true</smallrainTransparency>
+</smallrain>
+
+
+<bulletRight>
+  <bulletRightFile>images/bulletRight.png</bulletRightFile>
+  <bulletRightSrcX>0</bulletRightSrcX>
+  <bulletRightSrcY>0</bulletRightSrcY>
+  <bulletRightWidth>30</bulletRightWidth>
+  <bulletRightHeight>9</bulletRightHeight>
+  <bulletRightLoc bulletRightX="820" bulletRightY="680"/>
+  <bulletRightSpeed bulletRightSpeedX="4500" bulletRightSpeedY="150"/>
+  <bulletRightTransparency>true</bulletRightTransparency>
+</bulletRight>
+
+
+<bulletLeft>
+  <bulletLeftFile>images/bulletLeft.png</bulletLeftFile>
+  <bulletLeftSrcX>0</bulletLeftSrcX>
+  <bulletLeftSrcY>0</bulletLeftSrcY>
+  <bulletLeftWidth>30</bulletLeftWidth>
+  <bulletLeftHeight>9</bulletLeftHeight>
+  <bulletLeftLoc bulletLeftX="820" bulletLeftY="680"/>
+  <bulletLeftSpeed bulletLeftSpeedX="2500" bulletLeftSpeedY="150"/>
+  <bulletLeftTransparency>true</bulletLeftTransparency>
+</bulletLeft>
+
+<bullet>
+<bulletStrategy>perpixel</bulletStrategy>
+  <bulletFile>images/bullet.png</bulletFile>
+  <bulletInterval>5</bulletInterval>
+  <bulletDistance>1500</bulletDistance>
+  <bulletSrcX>0</bulletSrcX>
+  <bulletSrcY>0</bulletSrcY>
+  <bulletWidth>30</bulletWidth>
+  <bulletHeight>9</bulletHeight>
+  <bulletLoc bulletX="820" bulletY="680"/>
+  <bulletSpeed bulletSpeedX="5000" bulletSpeedY="100"/>
+  <bulletTransparency>true</bulletTransparency>
+</bullet>
+
+
+<bomb>
+  <bombFile>images/bomb.png</bombFile>
+  <bombSrcX>0</bombSrcX>
+  <bombSrcY>0</bombSrcY>
+  <bombWidth>30</bombWidth>
+  <bombHeight>30</bombHeight>
+  <bombLoc bombX="820" bombY="680"/>
+  <bombSpeed bombSpeedX="2500" bombSpeedY="150"/>
+  <bombTransparency>true</bombTransparency>
+</bomb>
+
+
+
+<parachuteBig>
+  <parachuteBigFile>images/parachuteBig.png</parachuteBigFile>
+  <parachuteBigSrcX>0</parachuteBigSrcX>
+  <parachuteBigSrcY>0</parachuteBigSrcY>
+  <parachuteBigWidth>150</parachuteBigWidth>
+  <parachuteBigHeight>150</parachuteBigHeight>
+  <parachuteBigLoc parachuteBigX="820" parachuteBigY="680"/>
+  <parachuteBigSpeed parachuteBigSpeedX="2500" parachuteBigSpeedY="150"/>
+  <parachuteBigTransparency>true</parachuteBigTransparency>
+</parachuteBig>
+
+<parachuteMed>
+  <parachuteMedFile>images/parachuteMed.png</parachuteMedFile>
+  <parachuteMedSrcX>0</parachuteMedSrcX>
+  <parachuteMedSrcY>0</parachuteMedSrcY>
+  <parachuteMedWidth>100</parachuteMedWidth>
+  <parachuteMedHeight>100</parachuteMedHeight>
+  <parachuteMedLoc parachuteMedX="820" parachuteMedY="680"/>
+  <parachuteMedSpeed parachuteMedSpeedX="100" parachuteMedSpeedY="-100"/>
+  <parachuteMedTransparency>true</parachuteMedTransparency>
+</parachuteMed>
+
+<parachuteSmall>
+  <parachuteSmallFile>images/parachuteSmall.png</parachuteSmallFile>
+  <parachuteSmallSrcX>0</parachuteSmallSrcX>
+  <parachuteSmallSrcY>0</parachuteSmallSrcY>
+  <parachuteSmallWidth>50</parachuteSmallWidth>
+  <parachuteSmallHeight>50</parachuteSmallHeight>
+  <parachuteSmallLoc parachuteSmallX="820" parachuteSmallY="680"/>
+  <parachuteSmallSpeed parachuteSmallSpeedX="100" parachuteSmallSpeedY="-100"/>
+  <parachuteSmallTransparency>true</parachuteSmallTransparency>
+</parachuteSmall>
+
+
+<logo>
+  <logoFile>images/logo.png</logoFile>
+  <logoSrcX>0</logoSrcX>
+  <logoSrcY>0</logoSrcY>
+  <logoWidth>1280</logoWidth>
+  <logoHeight>960</logoHeight>
+  <logoLoc logoX="0" logoY="0"/>
+  <logoSpeed logoSpeedX="0" logoSpeedY="0"/>
+  <logoTransparency>true</logoTransparency>
+</logo>
+
+
+<clickoff>
+  <clickoffFile>images/bomboff.png</clickoffFile>
+  <clickoffWidth>25</clickoffWidth>
+  <clickoffHeight>25</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clickoffTransparency>false</clickoffTransparency>
+</clickoff>
+
+<clickon>
+  <clickonFile>images/bombon.png</clickonFile>
+  <clickonWidth>26</clickonWidth>
+  <clickonHeight>26</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonTransparency>false</clickonTransparency>
+</clickon>
+
+
+<back>
+<backFile>images/checkerboard.bmp</backFile>
+<backRed>0</backRed>
+<backGreen>0</backGreen>
+<backBlue>250</backBlue>
+<backFactor>1</backFactor>
+<backSrcX>0</backSrcX>
+<backSrcY>0</backSrcY>
+<backWidth>1280</backWidth>
+<backHeight>960</backHeight>
+<backTransparency>false</backTransparency>
+</back>
+
+
+<menupagebackground>
+  <menupagebackgroundFile>images/logolatest.png</menupagebackgroundFile>
+  <menupagebackgroundSrcX>0</menupagebackgroundSrcX>
+  <menupagebackgroundSrcY>0</menupagebackgroundSrcY>
+  <menupagebackgroundWidth>1800</menupagebackgroundWidth>
+  <menupagebackgroundHeight>960</menupagebackgroundHeight>
+  <menupagebackgroundLoc menupagebackgroundX="0" menupagebackgroundY="0"/>
+  <menupagebackgroundSpeed menupagebackgroundSpeedX="0" menupagebackgroundSpeedY="0"/>
+  <menupagebackgroundTransparency>true</menupagebackgroundTransparency>
+</menupagebackground>
+
+
+
+</GameData>
